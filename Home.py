@@ -47,8 +47,8 @@ if no_button:
         pass
 
     with col5:
-        with col2:
-            check_button =st.button("are you sure you dont mean yes?")
+        st.write("you suck :(")
+        check_button =st.button("are you sure you dont mean yes?")
 
     with col6:
         pass
