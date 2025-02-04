@@ -30,6 +30,8 @@ with col3:
 
 if yes_button:
     st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27,autoplay=True)
+    st.video("gifs\Excited Season 4 GIF by Friends.gif")
+
 
 if ofcourse_button:
     st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
