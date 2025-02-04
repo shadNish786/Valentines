@@ -15,8 +15,9 @@ def load_css(file_path):
 css_path = pathlib.Path("style.css")
 load_css(css_path)
 
+st.title("Will you be my valentine? <3")
 
-st.write("AI stats generator",unsafe_allow_html=True,key="title")
+
 
 
 
