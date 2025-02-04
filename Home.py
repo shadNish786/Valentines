@@ -28,5 +28,11 @@ with col2:
 with col3:
     no_button=st.button("NO - you suck")
 
-if st.button("CLICK ME", key="red"):
-    st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27, autoplay=True)
+if yes_button:
+    st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27,autoplay=True)
+
+if ofcourse_button:
+    st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=0,autoplay=True)
+
+if no_button:
+    st.audio("songs/Lift Yourself [8fbyfDbi-MI].mp3",start_time=0,autoplay=True)
