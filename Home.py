@@ -50,7 +50,7 @@ if no_button:
 
     with col5:
         with col2:
-            st.write("you suck :(")
+            
             check_button =st.button("are you sure you dont mean yes?")
 
     with col6:
