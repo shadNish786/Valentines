@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit.components.v1 as com
+
 import pathlib
 
 
@@ -30,7 +32,7 @@ with col3:
 
 if yes_button:
     st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27,autoplay=True)
-    st.video("gifs\Excited Season 4 GIF by Friends.gif")
+    com.iframe("https://lottie.host/embed/ce788ef7-0bba-4d86-8f37-f8fd78bb6ccd/zp2bjsqxUb.lottie")
 
 
 if ofcourse_button:
