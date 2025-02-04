@@ -17,6 +17,10 @@ def load_css(file_path):
 css_path = pathlib.Path("style.css")
 load_css(css_path)
 
+if "confirmed_yes" not in st.session_state:
+    st.session_state.confirmed_yes = False
+
+
 st.title("Will you be my valentine? <3")
 
 col1,col2,col3 = st.columns(3)
@@ -49,9 +53,9 @@ if no_button:
         pass
 
     if check_button:
-        ofcourse_button==True
-        st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
-        com.iframe("https://lottie.host/embed/a30e1791-98e2-45d2-927c-a259120e1460/MFS2TgkkWM.lottie")
+        st.session_state.confirmed_yes = True
+        st.experimental_rerun()
+        
 
 
 
@@ -60,7 +64,7 @@ if no_button:
 
 
 
-if (ofcourse_button ==True):
+if ofcourse_button or st.session_state.confirmed_yes:
     st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
     com.iframe("https://lottie.host/embed/a30e1791-98e2-45d2-927c-a259120e1460/MFS2TgkkWM.lottie")
 
