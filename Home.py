@@ -34,13 +34,15 @@ if yes_button:
     st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27,autoplay=True)
     com.iframe("https://lottie.host/embed/ce788ef7-0bba-4d86-8f37-f8fd78bb6ccd/zp2bjsqxUb.lottie")
 
-
-if (ofcourse_button ==True):
-    st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
-    com.iframe("https://lottie.host/embed/a30e1791-98e2-45d2-927c-a259120e1460/MFS2TgkkWM.lottie")
-
 if no_button:
     st.audio("songs/Lift Yourself [8fbyfDbi-MI].mp3",start_time=112,autoplay=True)
     com.iframe("https://lottie.host/embed/8dbac72e-5b96-4998-82b7-1f70a3df1ecf/LsH8Aovq3y.lottie")
     if st.button("are you sure you dont mean yes?"):
         ofcourse_button == True
+
+
+
+if (ofcourse_button ==True):
+    st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
+    com.iframe("https://lottie.host/embed/a30e1791-98e2-45d2-927c-a259120e1460/MFS2TgkkWM.lottie")
+
