@@ -31,7 +31,7 @@ with col2:
     ofcourse_button = st.button("Of course yes!!!")
 
 with col3:
-    no_button=st.button("NO - you suck")
+    no_button=st.button("FUCK NO")
 
 if yes_button:
     st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27,autoplay=True)
@@ -39,6 +39,9 @@ if yes_button:
 
 if no_button:
     st.audio("songs/Lift Yourself [8fbyfDbi-MI].mp3",start_time=112,autoplay=True)
+    with col2:
+        st.write("you suck")
+        
     com.iframe("https://lottie.host/embed/8dbac72e-5b96-4998-82b7-1f70a3df1ecf/LsH8Aovq3y.lottie")
     
     col4,col5,col6 = st.columns(3)
