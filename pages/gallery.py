@@ -19,6 +19,8 @@ with col4:
 with col5:
     st.image("images/DSCF6313_Original.JPG")
 
+st.audio("songs/Dominic Fike - Mona Lisa (Music Video) SpiderMan Across the Spider-Verse Soundtrack MV [XiqN3pOIVIw].mp3",start_time=0,autoplay=True)
+
 
 
 
