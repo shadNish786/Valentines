@@ -32,7 +32,7 @@ with col3:
 
 if yes_button:
     st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27,autoplay=True)
-    com.iframe("https://lottie.host/embed/ce788ef7-0bba-4d86-8f37-f8fd78bb6ccd/zp2bjsqxUb.lottie")
+    com.iframe("https://lottie.host/embed/ce788ef7-0bba-4d86-8f37-f8fd78bb6ccd/zp2bjsqxUb.lottie",height=120,width=120)
 
 
 if ofcourse_button:
