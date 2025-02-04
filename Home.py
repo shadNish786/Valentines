@@ -47,6 +47,10 @@ if no_button:
 
     with col6:
         pass
+
+if check_button:
+    st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
+    com.iframe("https://lottie.host/embed/a30e1791-98e2-45d2-927c-a259120e1460/MFS2TgkkWM.lottie")
         
 
 
