@@ -37,7 +37,7 @@ if yes_button:
 if no_button:
     st.audio("songs/Lift Yourself [8fbyfDbi-MI].mp3",start_time=112,autoplay=True)
     com.iframe("https://lottie.host/embed/8dbac72e-5b96-4998-82b7-1f70a3df1ecf/LsH8Aovq3y.lottie")
-    with col3:
+    with col2:
         check_button = st.button("Are you sure?")
 
         
