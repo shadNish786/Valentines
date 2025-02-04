@@ -1,6 +1,11 @@
 import streamlit as st
 import pathlib
 
+
+st.set_page_config(page_title="home", page_icon=None, layout="centered", initial_sidebar_state="collapsed", menu_items=None)
+
+
+
 #load css file
 def load_css(file_path):
     with open(file_path) as f:
@@ -10,14 +15,10 @@ def load_css(file_path):
 css_path = pathlib.Path("style.css")
 load_css(css_path)
 
-st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="collapsed", menu_items=None)
-st.title("AI stat maker:")
-col1, col2  = st.columns(2)
 
-with col1:
-    pass
-with col2 :
-    center_button = st.button('CLICK ME', key="red")
+st.write("AI stats generator",unsafe_allow_html=True,key="title")
 
-if center_button:
-    st.audio("song   3s/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27, autoplay=True)
+
+
+if st.button("CLICK ME", key="red"):
+    st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27, autoplay=True)

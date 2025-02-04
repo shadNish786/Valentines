@@ -1,4 +1,11 @@
 /*button */
 .st-key-red button{
     background-color: green;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.st-key-title{
+    background-color: aqua;
 }
