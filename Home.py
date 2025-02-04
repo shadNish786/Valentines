@@ -39,7 +39,8 @@ if no_button:
     com.iframe("https://lottie.host/embed/8dbac72e-5b96-4998-82b7-1f70a3df1ecf/LsH8Aovq3y.lottie")
     if st.button("are you sure you dont mean yes?"):
         no_button == False
-        ofcourse_button==True
+        st.audio("songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) [kPa7bsKwL-c].mp3",start_time=30,autoplay=True)
+        com.iframe("https://lottie.host/embed/a30e1791-98e2-45d2-927c-a259120e1460/MFS2TgkkWM.lottie")
 
 
 
