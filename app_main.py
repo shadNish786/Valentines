@@ -17,9 +17,11 @@ load_css(css_path)
 
 st.title("Will you be my valentine? <3")
 
+col1,col2,col3 = st.columns(3)
 
-
-
+col1(st.button("YES"))
+col2(st.button("OF COURSE YES"))
+col3(st.button("NO- YOU SUCK"))
 
 if st.button("CLICK ME", key="red"):
     st.audio("songs/SEE YOU AGAIN featuring Kali Uchis [TGgcC5xg9YI].mp3",start_time=27, autoplay=True)
