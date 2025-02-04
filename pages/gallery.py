@@ -15,7 +15,7 @@ with col2:
 with col3:
     st.image("images/dclassic 2024-11-23 190400.228.jpg")
 with col4:
-    st.image("images\dclassic 2024-11-23 190510.804 (1).jpg")
+    st.image("images/dclassic 2024-11-23 190510.804 (1).jpg")
 with col5:
     st.image("images/DSCF6313_Original.JPG")
 
