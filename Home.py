@@ -42,15 +42,16 @@ if no_button:
     
 
     com.iframe("https://lottie.host/embed/8dbac72e-5b96-4998-82b7-1f70a3df1ecf/LsH8Aovq3y.lottie")
-    with col2:
-        st.write("you suck :(")
+    
     
     col4,col5,col6 = st.columns(3)
     with col4:
         pass
 
     with col5:
-        check_button =st.button("are you sure you dont mean yes?")
+        with col2:
+            st.write("you suck :(")
+            check_button =st.button("are you sure you dont mean yes?")
 
     with col6:
         pass
