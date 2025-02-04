@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-
+st.set_page_config(page_title="statistics", page_icon=None, layout="centered", initial_sidebar_state="collapsed", menu_items=None)
 st.title("Statistics:")
 
 df= pd.DataFrame(dict(
